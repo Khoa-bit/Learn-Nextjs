@@ -10,7 +10,9 @@ export default function Post({ postData }) {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <h1 className={utilStyle.headingXl}>{postData.title} :3 :<</h1>
+      <h1 className={utilStyle.headingXl}>
+        {postData.title} :3 {":< :V"}
+      </h1>
       <div className={utilStyle.lightText}>
         <Date dateString={postData.date} />
       </div>
